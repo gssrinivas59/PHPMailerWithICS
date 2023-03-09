@@ -55,7 +55,7 @@ class EasyGenrateICS {
 	{
 
 		$ics = "BEGIN:VCALENDAR\n";
-		$ics .= "PRODID:-//Tech2020 Solutions//GSS v1.0//EN\n";
+		$ics .= "PRODID:-//PHPMailerWithICS//GSS v1.0//EN\n";
 		$ics .= "VERSION:2.0\n";
 		$ics .= "CALSCALE:GREGORIAN\n";
 		$ics .= "METHOD:".$this->method."\n";
